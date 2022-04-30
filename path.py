@@ -1,6 +1,6 @@
 import os
 root = os.getcwd()
-PATH_GIT = '/opt/sentiment_analysis'
+PATH_GIT = '/opt/nlp_sa'
 # PATH_GIT = ''
 ROOT = root+PATH_GIT
 PATH_CONFIG = ROOT+'/config.json'
