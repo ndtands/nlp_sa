@@ -22,6 +22,6 @@ pip3 install -U pip
 - Build docker and run container
 ```
 sudo docker build -t nlp-sa:latest .
-docker run --rm -p 5002:5002 :latest
+sudo docker run --rm -p 5002:5002 nlp-sa:latest
 ```
 - Run app with url: http://[EXTERNAL_IP]:8000
