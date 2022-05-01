@@ -116,7 +116,7 @@ kubectl get service
 kubectl set image deployment/nlp-app nlp-app=us-central1-docker.pkg.dev/${PROJECT_ID}/nlp-repo/nlp-app:v2
 
 ```
-### 2.6 Clean up
+### 2.7 Clean up
 ```
 #Delete Scv
 kubectl delete service nlp-app-service
