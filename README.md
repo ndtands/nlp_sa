@@ -29,3 +29,8 @@ sudo docker run --rm -p 5002:5002 nlp-sa:latest
 
 
 ## 2. Deployment app to kubernets in GCP
+Open Cloud Console and run step by step:
+```
+#Install kubectl
+gcloud components install kubectl
+```
