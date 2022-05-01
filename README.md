@@ -3,7 +3,7 @@
 - Bert model save in gg drive: https://drive.google.com/uc?id=1V8itWtowCYnb2Bc9KlK9SxGff9WwmogA
 - Api with flaskAPI
 
-#Setup in gcp
+## 1. Setup in gcp
 - Create VM:
   + E2-standard4
   + ubuntu20.4 20GB
@@ -25,3 +25,7 @@ sudo docker build -t nlp-sa:latest .
 sudo docker run --rm -p 5002:5002 nlp-sa:latest
 ```
 - Run app with url: http://[EXTERNAL_IP]:8000
+
+
+
+## 2. Deployment app to kubernets in GCP
