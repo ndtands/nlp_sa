@@ -18,10 +18,11 @@ RUN cd $HOME && \
 
 #STEP5: Install gdown and install requirements
 RUN pip install gdown && \
-    pip install -r /opt/nlp_sa/requirements.txt
+    pip install -r /opt/nlp_sa/requirements.txt && \
+    pip install torch
 
 #STEP6: Download weight 
-RUN gdown https://drive.google.com/uc?id=1V8itWtowCYnb2Bc9KlK9SxGff9WwmogA
+RUN gdown https://drive.google.com/uc?export=download&id=1MH4PyjkcmrfhCcpqvO8iVfFf-pkOiM5y
 
 #STEP7: Create some folder
 RUN mkdir /opt/nlp_sa/assets && \
