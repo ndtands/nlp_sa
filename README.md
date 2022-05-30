@@ -1,6 +1,6 @@
 # nlp_sa
 - BERT + Sentiment analysis
-- Bert model save in gg drive: https://drive.google.com/uc?id=1V8itWtowCYnb2Bc9KlK9SxGff9WwmogA
+- Bert model save in gg drive: https://drive.google.com/uc?export=download&id=1MH4PyjkcmrfhCcpqvO8iVfFf-pkOiM5y
 - Api with flaskAPI
 
 ## 1. Setup in gcp
